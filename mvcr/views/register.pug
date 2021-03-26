@@ -1,0 +1,20 @@
+extends parents/master-layout
+
+block content
+  form(action="" method="POST")
+    fieldset
+      legend Login
+      .form-field
+        label(for="username") username
+        input#username(type="text" name="username" required autofocus)
+
+      .form-field
+        label(for="password") password
+        input#password(type="password" name="password" required)
+
+      .form-field
+        label(for="email") email
+        input#email(type="email" name="email" required)
+
+      .form-submit
+        button(type="submit") submit

@@ -1,0 +1,19 @@
+html,
+body,
+main {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  cursor: pointer;
+}
