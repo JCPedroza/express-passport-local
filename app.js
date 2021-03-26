@@ -3,7 +3,10 @@ const express = require('express')
 const morgan = require('morgan')
 const path = require('path')
 
+const db = require('./db/db')
 const registerRouter = require('./mvcr/routes/register-router')
+
+db.initialize()
 
 const app = express()
 app.set('view engine', 'pug')

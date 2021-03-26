@@ -6,5 +6,6 @@ const registerRouter = new Router()
 registerRouter
   .route('/')
   .get(registerCtrl.get)
+  .post(registerCtrl.post)
 
 module.exports = registerRouter
