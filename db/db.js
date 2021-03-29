@@ -1,4 +1,4 @@
-const { connect } = require('mongoose')
+const { connect, connection } = require('mongoose')
 
 const { dbOptions } = require('./db-config')
 
@@ -11,5 +11,6 @@ const initialize = () => {
 }
 
 module.exports = {
-  initialize
+  initialize,
+  connection
 }

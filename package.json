@@ -1,8 +1,7 @@
 {
-  "name": "four",
-  "version": "1.0.0",
+  "name": "express-passport-local",
+  "version": "0.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon http/server.js"
@@ -21,7 +20,10 @@
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
+    "connect-mongo": "^4.4.1",
     "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.1",
     "mongoose": "^5.12.2",
     "morgan": "^1.10.0",
     "passport": "^0.4.1",
